@@ -71,7 +71,7 @@ class Bird(pg.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.center = xy
         self.speed = 10
-        self.high_speed = 20
+        self.high_speed = 20 #feature1
         self.high = False
 
     def change_img(self, num: int, screen: pg.Surface):
